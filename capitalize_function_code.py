@@ -11,5 +11,6 @@ def custom_capitalize(letter):
     
     return first_letter + rest_of_string
 
+#convert user text with capitalize function
 result = custom_capitalize(user_text)
 print(f"Capitalized string: {result}")
